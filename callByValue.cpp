@@ -3,7 +3,8 @@ using namespace std;
 
 int returnMin(int,int);
 
-int main(){
+int main() {
+	
 	int num1, num2;
 	int res;
 	cout << "\n Enter first value\t:\t" ;
@@ -12,10 +13,12 @@ int main(){
 	cin >> num2 ;
 	cout << "\n The Minimum of two\t:\t" << returnMin( num1, num2) << endl ;
 	return 0;
+	
 }
 
-int returnMin( int num1, int num2){
-	if ( num1 < num2 ){
+int returnMin( int num1, int num2) {
+	
+	if ( num1 < num2 ) {
   		return num1;
 	}
 	else {
